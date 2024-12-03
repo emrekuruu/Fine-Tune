@@ -6,4 +6,4 @@
 
 3. Activate it to run scripts: poetry shell
 
-4. Add dependancies of your own: poetry add <library-name> ( what you would normally write in pip install  <library-name> goes here )
+4. Add dependancies of your own: poetry add "library-name" ( what you would normally write in pip install "library-name" goes here )
