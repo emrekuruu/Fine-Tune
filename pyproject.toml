@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "ekuru_finetune"
+
+version = "0.1.0"
+description = "Fine tune a smaller LM to see if it can outperform a larger Generalized LLM in a specialized task."
+authors = ["Emre Kuru <emre.kuru@ozu.edu.tr>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10.0,<3.13"
+pandas = "^2.2.3"
+transformers = "^4.46.3"
+peft = "^0.13.2"
+datasets = "^3.1.0"
+scikit-learn = "^1.5.2"
+matplotlib = "^3.9.3"
+
+[tool.poetry.group.dev.dependencies]
+poetry = "^1.7.0"
+pytest = "^8.1.0"
+coverage = "^7.4.0"
+
+[[tool.poetry.source]]
+name = "PyPI"
+priority = "primary"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true
