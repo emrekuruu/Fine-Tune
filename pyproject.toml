@@ -10,7 +10,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10.0,<3.13"
 pandas = "^2.2.3"
-transformers = "^4.46.3"
+transformers = "^4.47.1"
 peft = "^0.13.2"
 datasets = "^3.1.0"
 scikit-learn = "^1.5.2"
